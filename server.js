@@ -19,6 +19,8 @@ app.use(express.urlencoded({extended: true}));
 const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient();
 
+
+
 // Main landing page
 app.get('/', async function(req, res) {
 
